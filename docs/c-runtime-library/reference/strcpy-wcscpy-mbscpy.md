@@ -32,21 +32,24 @@ unsigned char *_mbscpy(
    unsigned char *strDestination,
    const unsigned char *strSource
 );
+```
+
+```cpp
 template <size_t size>
 char *strcpy(
    char (&strDestination)[size],
    const char *strSource
-); // C++ only
+);
 template <size_t size>
 wchar_t *wcscpy(
    wchar_t (&strDestination)[size],
    const wchar_t *strSource
-); // C++ only
+);
 template <size_t size>
 unsigned char *_mbscpy(
    unsigned char (&strDestination)[size],
    const unsigned char *strSource
-); // C++ only
+);
 ```
 
 ### Parameters
